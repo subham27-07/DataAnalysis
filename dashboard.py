@@ -12,7 +12,7 @@ from accessibility import *
 
 
 st.set_page_config(
-    page_title="Urban Connector",
+    page_title="Urban Mobility Analysis",
     page_icon="./sl//favicon.ico",
     layout='wide',
     initial_sidebar_state='collapsed')
@@ -25,8 +25,8 @@ st.write(
     )
 
 # CSS
-with open('./sl/style.css') as f:
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+# with open('./sl/style.css') as f:
+#     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 menu_list = st.sidebar.radio('Secciones', ["Start",  "Connectivity", "Accessibility"])
 
