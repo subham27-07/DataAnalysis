@@ -161,7 +161,7 @@ elif menu_list == "Accessibility":
     st.markdown(' ')
 
     col1, col2, col3 = st.columns(3)
-    default_place= 'Villa Hidalgo, José León Suárez, Partido de General San Martín, Buenos Aires'
+    default_place= 'New Delhi India'
     place = col1.text_input(label='Place your network', value=default_place)
 
     network_types = ["all_private", "all", "bike", "drive", "drive_service", "walk"]
