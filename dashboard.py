@@ -80,7 +80,7 @@ elif menu_list == "Connectivity":
         ref = orca.get_injectable('ref')
     else:
         # use a default reference point
-        ref = (-34.50944, -58.58610)
+        ref = (28.6139, 77.2090)
 
     G = build_street_network(selected_network_type, ref, buffer_dist)
 
