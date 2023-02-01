@@ -13,7 +13,7 @@ from accessibility import *
 
 st.set_page_config(
     page_title="Urban Mobility Analysis",
-    page_icon="./sl//favicon.ico",
+    # page_icon="./sl//favicon.ico",
     layout='wide',
     initial_sidebar_state='collapsed')
 
